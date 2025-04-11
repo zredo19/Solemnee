@@ -1,23 +1,18 @@
-# Solemne
+# ☕ Don Gato
 
-Café Delight es una elegante tienda en línea especializada en la venta de cafés premium de origen único, blends exclusivos y accesorios para los amantes del buen café.
+**Don Gato** es una cafetería y tienda en linea especializada en café de alta calidad. Ideal para los amantes del café que le gustan los gatos.  
 
-🚀 Características
-🌍 Cafés de especialidad: Granos seleccionados de las mejores regiones cafetaleras.
+## 📚 Tabla de Contenidos  
+- [Descripción](#-descripción)  
+- [Instalación](#-instalación)  
 
-🛒 Carrito de compras: Integración con pasarela de pago (Stripe/PayPal).
+## 🏷️ Descripción  
+Este proyecto es una plataforma de comercio electrónico enfocada en la venta de café y accesorios relacionados. Desarrollada con **HTML, CSS y JavaScript**, ofrece una experiencia intuitiva y rápida para los usuarios.  
 
-🔍 Búsqueda y filtros: Encuentra tu café ideal por tipo, origen o intensidad.
-
-📱 Diseño responsive: Compatible con móviles, tablets y desktop.
-
-⭐ Sistema de reseñas: Valoraciones de clientes para cada producto.
-
-🛠️ Tecnologías
-Frontend: HTML5, CSS3, JavaScript (React.js/Vue.js)
-
-Backend: Node.js + Express (o Django/PHP según stack)
-
-Base de datos: MongoDB/PostgreSQL
-
-Despliegue: Vercel/Netlify (Front) + Heroku/AWS (Back)
+## ⚙️ Instalación  
+1. Clona el repositorio:  
+   ```bash  
+   git clone https://github.com/tu-usuario/don-gato-cafe.git
+2. Inicia la aplicación:
+   ```bash
+   npm start
