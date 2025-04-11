@@ -1,0 +1,184 @@
+:root {
+    --primary: #C9A769;  /* Dorado principal */
+    --primary-dark: #b89552;
+    --primary-light: #d8b87c;
+    --dark: #121212;     /* Fondo negro */
+    --darker: #0a0a0a;   /* Negro más oscuro */
+    --dark-light: #1e1e1e; /* Gris muy oscuro */
+    --text-light: #e0e0e0; /* Texto claro */
+    --text-muted: #aaaaaa; /* Texto atenuado */
+    --border-dark: #333333; /* Bordes oscuros */
+}
+
+/* Estilos base */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-light);
+    background-color: var(--dark);
+    padding-top: 72px;
+    min-height: 100vh;
+}
+
+/* Reset de colores de Bootstrap para modo oscuro */
+.bg-light {
+    background-color: var(--dark-light) !important;
+    color: var(--text-light);
+}
+
+.text-dark {
+    color: var(--text-light) !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--darker) !important;
+    border-bottom: 1px solid var(--primary);
+}
+
+.navbar-brand {
+    color: var(--primary) !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link {
+    color: var(--text-light) !important;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary) !important;
+}
+
+.btn-outline-light {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+/* Cards */
+.card {
+    background-color: var(--dark-light);
+    border: 1px solid var(--border-dark);
+    color: var(--text-light);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(201, 167, 105, 0.1);
+    border-color: var(--primary);
+}
+
+.card-img-top {
+    border-bottom: 1px solid var(--border-dark);
+}
+
+.card-body {
+    background-color: var(--dark-light);
+}
+
+.price {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Tabs */
+.nav-tabs {
+    border-bottom: 1px solid var(--border-dark);
+}
+
+.nav-tabs .nav-link {
+    color: var(--text-light);
+    background-color: var(--dark-light);
+    border: 1px solid var(--border-dark);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--dark);
+    border-bottom-color: var(--dark);
+    color: var(--primary);
+    border-color: var(--border-dark) var(--border-dark) var(--dark);
+}
+
+/* About Section */
+.bg-dark {
+    background-color: var(--darker) !important;
+}
+
+/* Footer */
+footer {
+    background-color: var(--darker);
+    border-top: 1px solid var(--primary);
+}
+
+/* Modales */
+.modal-content {
+    background-color: var(--dark-light);
+    color: var(--text-light);
+    border: 1px solid var(--border-dark);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--border-dark);
+    background-color: var(--darker);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-dark);
+}
+
+/* Formularios */
+.form-control {
+    background-color: #2d2d2d;
+    border: 1px solid var(--border-dark);
+    color: var(--text-light);
+}
+
+.form-control:focus {
+    background-color: #3d3d3d;
+    color: var(--text-light);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(201, 167, 105, 0.25);
+}
+
+/* Textos */
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.lead.text-muted {
+    color: var(--text-muted) !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
